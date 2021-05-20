@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gillies Sustainable Jewellery</title>
+    <link href="resources/css/index.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div>
+      <ul>
+        <li><a href="#" target="_blank">Shop</a></li>
+        <li><a href="#" target="_blank">About</a></li>
+        <li><a href="#" target="_blank">Contact</a></li>
+        <li><a href="#" target="_blank">Search</a></li>
+        <li><a href="#" target="_blank">Wishlist</a></li>
+        <li><a href="#" target="_blank">Shopping Cart</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h1>Gillies</h1>
+      <h5>Local + Global</h5>
+    </div>
+
+    <div class="content">
+      <p>
+        <span class="store"> Gillies </span> is a store founded by <strong>Angelika Berger.</strong>
+        <br />
+        <hr />
+        Angelika Berger is a cancer survivor who lives in the beautiful, historic city of 
+        <a href="https://en.wikipedia.org/wiki/Marburg" target="_blank">Marburg</a>
+        , a German town north of Frankfurt. In 2011, at 52 years old, she was
+        diagnosed with pancreatic cancer and in between chemo treatments she
+        started a new hobby:
+        <strong><em> the art of crafting jewellery</em></strong>. 
+        And this hobby became a passion. A passion which now she desires to share with
+        people all around the world. Read more about Angelika's story 
+        <a href="#" target="_blank">here</a>.
+        <hr />
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="item">
+        <a href="#" target="_blank"><img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/007/480/original/organic_1.jpg?1618836170"
+        alt="organic earrings" style= "width:100%"></a>
+        <div class="caption"><strong>Functional</strong></div>
+      </div>
+      <div class="item">
+        <a href="#" target="_blank"><img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/007/481/original/organic_necklace.jpg?1618836189"
+        alt="organic necklace" style= "width:100%"></a>
+        <div class="caption"><strong>Feminine</strong></div>
+      </div>
+      <div class="item">
+        <a href="#" target=">blank"><img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/007/482/original/organic_all.jpg?1618836201"
+        alt="jewllery collection" style= "width:100%"></a>
+        <div class="caption"><strong>Forward</strong></div>
+      </div> 
+    </div>
+
+    <div class="content">
+      <p>
+        <hr>
+        Our customers are our advocates, and we want to assure two things:
+        <br />
+        <em class="font-change">
+        1. <a href= "https://www.worldcancerday.org/?gclid=Cj0KCQjw1PSDBhDbARIsAPeTqrdnNF0O0iriDf5wDCZ-vf9OU-zheEPPO_DCYweBctYwt7VpsCxc9ysaAmQJEALw_wcB" target="_blank">Spread Awareness</a>
+        <br />
+        2. <a href="https://www.foundationforwomenscancer.org/" target="_blank">Do so for women</a></em>
+        <hr />
+      </p>
+    </div>
+
+    <button>
+      Subscribe Our Newsletter 
+    </button>
+
+    <footer>Coded by <a href="https://www.instagram.com/thewalkingbutterfly/" target="_blank">@thewalkingbutterfly 🦋</a></footer>
+
+    <script>
+      alert("Get 15% discount with your first purchase!!!");
+      alert("Use the code BERGER31")
+
+      function subscribe() {
+        let name = prompt("Write your name below:");
+        let email = prompt("Write your e-mail below:");
+        let age = prompt("Write your age below:");
+
+        if(age >= 18) {
+          alert(name+", you are now subscribed!!!👏👏👏");
+        } else {
+          alert("Sorry "+ name + ", you cannot subscribe! 😕");
+        }
+      }
+
+      let subscribeButton = document.querySelector("button");
+
+      subscribeButton.addEventListener("click", subscribe);
+    </script>
+  </body>
+</html>
