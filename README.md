@@ -1,1 +1,1 @@
-# All SheCodes challenges and projects
+# First SheCodes Project
